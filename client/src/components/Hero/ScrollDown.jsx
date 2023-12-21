@@ -5,7 +5,7 @@ const ScrollDown = () => {
     <div className='scrollHero'>
       <a href='#aboutMe' className='scrollBtn'>
         <span className='hero__scroll-name'>Scroll Down</span> &nbsp;
-        <i class='uil uil-arrow-down home__scroll-arrow'></i>
+        <i className='uil uil-arrow-down home__scroll-arrow'></i>
       </a>
     </div>
   );
