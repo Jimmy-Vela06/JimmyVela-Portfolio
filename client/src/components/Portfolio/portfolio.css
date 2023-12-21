@@ -1,0 +1,214 @@
+.work {
+  padding: 6rem 0 2rem;
+}
+.work.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.section__subtitle {
+  margin-top: 1.5rem;
+}
+
+.projects-container {
+  position: relative;
+  justify-self: center;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  column-gap: 2rem;
+  justify-content: center;
+  margin-top: 0rem;
+}
+
+.project-card {
+  position: relative;
+  border: 3px solid hsl(var(--hue), var(--sat), 19%);
+  border-radius: 16px;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0rem;
+  background-color: var(--container-color);
+  border: 3px solid hsl(var(--hue), var(--sat), 19%);
+  padding: 2rem 1rem;
+  border-radius: 1.25rem;
+  width: 300px;
+  min-height: 24rem;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.project-image {
+  border: 2px solid hsl(var(--hue), var(--sat), 90%);
+  border-radius: 14px;
+  max-width: 100%;
+  height: 170px;
+  margin-bottom: 12px;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  margin-top: 20rem;
+  position: absolute;
+  bottom: 18px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.site-button,
+.repo-button {
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+  width: 45%;
+  padding: 8px;
+  font-size: 12px;
+  border-radius: 50px;
+}
+
+.site-button {
+  color: hsl(var(--hue), var(--sat), 22%);
+  background: #fffff7;
+  box-shadow: -20px 20px 60px #d9d9d2, 20px -20px 60px #ffffff;
+}
+
+.site-button:hover {
+  background-color: #f8f8eb;
+  box-shadow: inset 5px 5px 20px #f4f4f4, inset -5px -5px 20px #ffffff;
+}
+
+.repo-button {
+  background-color: hsl(var(--hue), var(--sat), 30%);
+  box-shadow: inset 2.91px 2.91px 5px hsl(var(--hue), var(--sat), 3%), inset -2.91px -2.91px 15px hsl(var(--hue), var(--sat), 3%);
+}
+
+.repo-button:hover {
+  background-color: hsl(var(--hue), var(--sat), 1%);
+}
+
+.description__title {
+  text-align: start;
+  padding: 0rem 1.8rem;
+}
+.card-description {
+  text-align: start;
+  padding: 0rem 1.8rem;
+  font-size: 0.7rem;
+  overflow: hidden;
+}
+
+.card-description.show {
+  height: 11rem;
+  margin-bottom: 2rem;
+}
+
+.card-description.hide {
+  max-height: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .projects-container {
+    grid-template-columns: max-content;
+    row-gap: 2rem;
+  }
+  .project-card {
+    width: 400px;
+    min-height: 27.5rem;
+    height: 40rem auto;
+  }
+  .project-image {
+    border: 2px solid hsl(var(--hue), var(--sat), 90%);
+    border-radius: 14px;
+    width: 150%;
+    height: 14rem;
+    margin-bottom: 12px;
+  }
+
+  .description__title {
+    font-size: 1.1rem;
+  }
+
+  .card-description {
+    text-align: start;
+    padding: 0rem 1.8rem;
+    font-size: 0.7rem;
+    overflow: hidden;
+  }
+  .card-description.show {
+    height: auto;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .projects-container {
+    margin-top: -25px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+  .project-card {
+    margin: auto;
+    margin-top: 0rem;
+    padding: 1.5rem;
+    width: 90%;
+    height: auto;
+    min-height: 25rem;
+  }
+  .project-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-description.hide {
+    max-height: 0;
+    margin-bottom: 3rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .project-card {
+    width: 90%;
+    height: auto;
+    min-height: 27.5rem;
+  }
+  .card-description.hide {
+    max-height: 0;
+    margin-bottom: auto;
+  }
+}
+
+@media screen and (max-width: 434px) {
+  .project-card {
+    height: 26.5rem auto;
+    min-height: 26.5rem;
+  }
+  .card-description.hide {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .project-card {
+    height: 26.5rem auto;
+    min-height: 24.5rem;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .project-card {
+    padding: 10px;
+  }
+  .card-description {
+    padding: 0rem 0.8rem;
+  }
+}

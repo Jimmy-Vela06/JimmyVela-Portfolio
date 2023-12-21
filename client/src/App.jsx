@@ -5,6 +5,7 @@ import Hero from './components/Hero/Hero';
 import ParticlesContainer from './components/Particles/ParticlesContainer';
 import AboutMe from './components/About/AboutMe';
 import Skills from './components/Skills/Skills';
+import Portfolio from './components/Portfolio/Portfolio';
 
 import './App.css';
 
@@ -22,6 +23,7 @@ function App() {
         <div className='divider'></div>
         <AboutMe />
         <Skills />
+        <Portfolio />
       </main>
     </>
   );
