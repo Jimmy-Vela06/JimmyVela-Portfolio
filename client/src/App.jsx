@@ -1,5 +1,7 @@
 import { useState } from 'react';
 
+import Navbar from './components/Navbar/Navbar';
+
 import './App.css';
 
 function App() {
@@ -28,7 +30,9 @@ function App() {
     //     Click on the Vite and React logos to learn more
     //   </p>
     // </>
-    <></>
+    <>
+      <Navbar />
+    </>
   );
 }
 
