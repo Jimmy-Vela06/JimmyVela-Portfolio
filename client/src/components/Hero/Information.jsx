@@ -28,14 +28,14 @@ const Information = () => {
         <a href='' className='resumeBtn' onClick={handleDownloadPDF}>
           <span className='spanResume'>
             {' '}
-            Resume PDF &nbsp;<i class='uil uil-file-download'></i>
+            Resume PDF &nbsp;<i className='uil uil-file-download'></i>
           </span>
         </a>
 
         <a href='' className='resumeBtn '>
           <span className='spanResume'>
             {' '}
-            Contact &nbsp;<i class='uil uil-message'></i>
+            Contact &nbsp;<i className='uil uil-message'></i>
           </span>
         </a>
       </div>
