@@ -8,7 +8,7 @@ const OtherSkills = () => {
       <div className='skills__box'>
         <div className='skills__group'>
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>Redux</h3>
@@ -17,7 +17,7 @@ const OtherSkills = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>GIT</h3>
@@ -26,7 +26,7 @@ const OtherSkills = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>REST</h3>
@@ -34,7 +34,7 @@ const OtherSkills = () => {
             </div>
           </div>
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>Deployment</h3>
@@ -45,7 +45,7 @@ const OtherSkills = () => {
 
         <div className='skills__group'>
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>VSCode</h3>
@@ -54,7 +54,7 @@ const OtherSkills = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>APIs</h3>
@@ -63,7 +63,7 @@ const OtherSkills = () => {
           </div>
 
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>OOP</h3>
@@ -71,7 +71,7 @@ const OtherSkills = () => {
             </div>
           </div>
           <div className='skills__data'>
-            <i class='bx bx-badge-check'></i>
+            <i className='bx bx-badge-check'></i>
 
             <div>
               <h3 className='skills__name'>MVC</h3>
