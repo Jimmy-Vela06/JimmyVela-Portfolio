@@ -4,6 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 import Hero from './components/Hero/Hero';
 import ParticlesContainer from './components/Particles/ParticlesContainer';
 import AboutMe from './components/About/AboutMe';
+import Skills from './components/Skills/Skills';
 
 import './App.css';
 
@@ -20,6 +21,7 @@ function App() {
         </div>
         <div className='divider'></div>
         <AboutMe />
+        <Skills />
       </main>
     </>
   );
