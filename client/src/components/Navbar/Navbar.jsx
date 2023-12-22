@@ -37,7 +37,7 @@ const Navbar = () => {
             </li>
 
             <li className='nav__item'>
-              <a href='' className='nav__link'>
+              <a href='#contact' className='nav__link'>
                 <i className='uil uil-message nav__icon' /> Contact
               </a>
             </li>
