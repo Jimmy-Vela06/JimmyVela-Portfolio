@@ -32,7 +32,7 @@ const Information = () => {
           </span>
         </a>
 
-        <a href='' className='resumeBtn '>
+        <a href='#contact' className='resumeBtn '>
           <span className='spanResume'>
             {' '}
             Contact &nbsp;<i className='uil uil-message'></i>

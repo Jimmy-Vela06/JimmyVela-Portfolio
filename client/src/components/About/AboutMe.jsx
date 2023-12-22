@@ -15,8 +15,7 @@ const AboutMe = () => {
             <p className='about__description'>
               Aspiring software developer with 5+ years working as a fire alarm designer. Recently, I have pivoted my career focus after
               graduating a full stack development course from SMU. Where my passion for creating solutions to problems amplified. With my
-              knowlege in both front-end and back-end development I pursue to create high quality applications that users love. The
-              programming skills I have acquired are HTML, CSS, JavaScript, Node.js, MySQL, MongoDB, GraphQL and React.
+              knowlege in both front-end and back-end development I pursue to create high quality applications that users love.
             </p>
           </div>
         </div>
