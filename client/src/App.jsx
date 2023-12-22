@@ -9,31 +9,9 @@ import AboutMe from './components/About/AboutMe';
 import Skills from './components/Skills/Skills';
 import Portfolio from './components/Portfolio/Portfolio';
 import Contact from './components/Contact/Contact';
+import Footer from './components/Footer/Footer';
 
 import './App.css';
-
-// class ErrorBoundary extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = { hasError: false };
-//   }
-
-//   static getDerivedStateFromError(error) {
-//     return { hasError: true };
-//   }
-
-//   componentDidCatch(error, errorInfo) {
-//     console.error('Error caught by error boundary:', error, errorInfo);
-//   }
-
-//   render() {
-//     if (this.state.hasError) {
-//       return <div>Something went wrong.</div>;
-//     }
-
-//     return this.props.children;
-//   }
-// }
 
 function App() {
   const [count, setCount] = useState(0);
@@ -41,7 +19,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <main>
+      <main className='main'>
         <div className='heroSection'>
           <Hero />
           <ParticlesContainer />
@@ -51,10 +29,8 @@ function App() {
         <Skills />
         <Portfolio />
         <Contact />
-        {/* <ErrorBoundary>
-          <Contact />
-        </ErrorBoundary> */}
       </main>
+      <Footer />
     </BrowserRouter>
   );
 }
